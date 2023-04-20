@@ -175,6 +175,12 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 					className="text-white w-full p-3 rounded-sm cursor-pointer font-semibold bg-green-600 uppercase hover:bg-white hover:text-green-600 transition-all hover:-translate-y-1"
 					value={paciente.id ? 'Editar Paciente' : 'Agregar Paciente'}
 				/>
+				<button
+					type="submit"
+					className="mt-3 text-white w-full p-3 rounded-sm cursor-pointer font-semibold bg-green-600 uppercase hover:bg-white hover:text-green-600 transition-all hover:-translate-y-1"
+				>
+					Enviar Al Correo
+				</button>
 			</form>
 		</div>
 	);
