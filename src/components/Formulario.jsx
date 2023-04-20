@@ -85,6 +85,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 			<form
 				onSubmit={handleSubmit}
 				className="mt-5 bg-gray-800 shadow-md shadow-black rounded-lg py-10 px-5"
+				netlify
 			>
 				{error && (
 					<Error>
