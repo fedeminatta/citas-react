@@ -83,7 +83,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 			</p>
 
 			<form
-				onSubmit={handleSubmit}
+				// onSubmit={handleSubmit}
 				className="mt-5 bg-gray-800 shadow-md shadow-black rounded-lg py-10 px-5"
 				netlify
 			>
@@ -174,6 +174,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
 					type="submit"
 					className="text-white w-full p-3 rounded-sm cursor-pointer font-semibold bg-green-600 uppercase hover:bg-white hover:text-green-600 transition-all hover:-translate-y-1"
 					value={paciente.id ? 'Editar Paciente' : 'Agregar Paciente'}
+					onClick={handleSubmit}
 				/>
 				<button
 					type="submit"
