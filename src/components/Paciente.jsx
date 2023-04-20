@@ -30,7 +30,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
 				<span className="font-normal normal-case">{sintomas}</span>
 			</p>
 
-			<div className="flex gap-3 mt-10">
+			<div className="flex gap-3 flex-wrap mt-10">
 				<button
 					type="button"
 					className="py-2 px-10 bg-green-600 hover:bg-green-700 cursor-pointer uppercase font-semibold rounded-md"
